@@ -5,8 +5,6 @@ using UnityEngine.UI;
 
 public class Scene1_Wolf : MonoBehaviour
 {
-    // biến nhập từ unity
-//    public Vector3 startPoint;
     public Vector3 endPoint;
     public float wolfMoveSpeed;
     public GameObject tornado;
@@ -17,12 +15,8 @@ public class Scene1_Wolf : MonoBehaviour
 
     Scene1_SwordMan s1sm;
     Scene1_Controller sctl;
-
-    //
     Vector3 smPosition;
     Vector3 wPosition;
-
-    //Biến priavte
     float shootTime = 1;
     float st;
     float blitzTime = 3;
